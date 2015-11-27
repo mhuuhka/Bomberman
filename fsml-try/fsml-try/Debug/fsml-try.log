@@ -1,0 +1,25 @@
+﻿Build started 27.11.2015 14:55:17.
+     1>Project "G:\olio2\fsml-try\fsml-try\fsml-try.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"G:\sfml-2.3\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt character.cpp event.cpp gamestatus.cpp main.cpp meter.cpp teksti.cpp
+         teksti.cpp
+         meter.cpp
+         main.cpp
+         gamestatus.cpp
+         event.cpp
+         character.cpp
+     1>g:\olio2\fsml-try\fsml-try\character.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\olio2\fsml-try\Debug\fsml-try.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\sfml-2.3\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\olio2\fsml-try\Debug\fsml-try.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\olio2\fsml-try\Debug\fsml-try.lib" /MACHINE:X86 Debug\character.obj
+         Debug\event.obj
+         Debug\gamestatus.obj
+         Debug\main.obj
+         Debug\meter.obj
+         Debug\teksti.obj
+         fsml-try.vcxproj -> G:\olio2\fsml-try\Debug\fsml-try.exe
+     1>Done Building Project "G:\olio2\fsml-try\fsml-try\fsml-try.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.51
